@@ -6,3 +6,47 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+/*navbar stylin*/
+.navbar {
+  background: crimson;
+  position: fixed;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  padding: 15px 0;
+}
+.max-width {
+  width: 100%;
+  padding: 0 80px;
+  margin: auto;
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+}
+
+/* home section styling*/
+.home {
+  display: flex;
+  background: url("images/banner.jpg") no-repeat center;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+}
